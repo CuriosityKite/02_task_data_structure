@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device>
+	<model>
+		<brand>Axis</brand>
+		<name>P7214</name>
+		<firmware>5.50.2</firmware>
+	</model>
+	<credentialsRef id="creds"/>
+	<videoSourceRef id="video_source_for_P7214">
+		<videoStreamingRef id="vs_P712" default="true"/>
+		<detectorRef id="motion_detection" maxCount="1"/>
+		<detectorRef id="tampering_detection" maxCount="1"/>
+		<detectorRef id="audio_detection" maxCount="1"/>
+	</videoSourceRef>
+	<videoSourceRef id="video_source_for_P7214">
+		<videoStreamingRef id="vs_P712" default="true"/>
+		<detectorRef id="motion_detection" maxCount="1"/>
+		<detectorRef id="tampering_detection" maxCount="1"/>
+		<detectorRef id="audio_detection" maxCount="1"/>
+	</videoSourceRef>
+	<videoSourceRef id="video_source_for_P7214">
+		<videoStreamingRef id="vs_P712" default="true"/>
+		<detectorRef id="motion_detection" maxCount="1"/>
+		<detectorRef id="tampering_detection" maxCount="1"/>
+	</videoSourceRef>
+	<videoSourceRef id="video_source_for_P7214">
+		<videoStreamingRef id="vs_P712" default="true"/>
+		<detectorRef id="motion_detection" maxCount="1"/>
+		<detectorRef id="tampering_detection" maxCount="1"/>
+	</videoSourceRef>
+	<telemetryRef id="telemetry_P7214"/>
+	<telemetryRef id="telemetry_P7214"/>
+	<telemetryRef id="telemetry_P7214"/>
+	<telemetryRef id="telemetry_P7214"/>
+	<audioSourceRef id="as_g711_g726_aac_8-64_positive_gain"/>
+	<audioSourceRef id="as_g711_g726_aac_8-64_positive_gain"/>
+	<audioDestinationRef id="ad_g711_g726_output_gain_9_53"/>
+	<serialPortRef id="serial_axis_P72"/>
+	<ioDeviceRef id="iodev_4x4_configurable"/>
+</device>
